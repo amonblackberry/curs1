@@ -1,0 +1,98 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    background: linear-gradient(270deg, #7b0fd0, #000000, #2c76e4);
+}
+
+.header-description {
+    margin-top: 40px;
+    padding: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.header-image {
+    order: 2;
+}
+
+@media (max-width: 768px) {
+    .header-image {
+        order: 1;
+        margin-top: 20px;
+    }
+}
+
+.text-highlighted {
+    font-weight: bold;
+    color: #7b0fd0;
+}
+
+.text-purple {
+    color: #7b0fd0;
+}
+
+#experts .expert-block {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn-signup {
+    background-color: #7b0fd0;
+    color: white;
+    border: none;
+}
+
+.btn-signup:hover {
+    background-color: #5e0ba1;
+}
+/* Фон и отступы для блоков */
+.header-description,
+#about,
+#experts,
+#signup {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; /* Отступ между блоками */
+}
+
+/* Заголовки фиолетового цвета */
+.header-description .display-3,
+#about .display-3,
+#experts .display-3,
+#signup .display-3 {
+    color: #7b0fd0; /* Фиолетовый цвет */
+}
+
+/* Для заголовка внутри signup */
+#signup .h3 {
+    color: #7b0fd0; /* Фиолетовый цвет */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Общий стиль для всех блоков с экспертами */
+/* Стили для карт экспертов */
+.expert-card {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0; /* Отступы между блоками экспертов */
+}
+
+/* Стили для изображений экспертов */
+.expert-card .expert-image {
+    width: 80%; /* Уменьшение размера изображения */
+    max-width: 150px; /* Максимальная ширина */
+    border-radius: 50%; /* Закругление фото */
+    border: 3px solid #00aaff; /* Синий контур */
+    margin-bottom: 10px;
+}
+
+
+
